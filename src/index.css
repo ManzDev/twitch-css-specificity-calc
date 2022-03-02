@@ -1,0 +1,23 @@
+@font-face {
+  font-family: Montserrat;
+  src:
+    url("fonts/montserrat-vf.woff2") format("woff2"),
+    url("fonts/montserrat-vf.woff") format("woff"),
+    url("fonts/montserrat-vf.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Victor Mono";
+  src:
+    url("fonts/victor-mono.woff2") format("woff2"),
+    url("fonts/victor-mono.woff") format("woff"),
+    url("fonts/victor-mono.ttf") format("truetype");
+  font-display: swap;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5em;
+}
